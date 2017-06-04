@@ -2,7 +2,6 @@ package kr.or.connect.todo.api;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.context.WebApplicationContext;
-import kr.or.connect.TodoApplication;
+import kr.or.connect.todo.TodoApplication;
 
 
 @RunWith(SpringRunner.class)
